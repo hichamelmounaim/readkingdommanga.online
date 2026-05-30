@@ -1,0 +1,43 @@
+{
+  "mangaEdgeSlug": "czvwfo-kingdom",
+  "history": [
+    {
+      "id": "kntpn3g",
+      "date": "2026-05-30T15:07:28.181Z",
+      "type": "scrape",
+      "description": "Scraped successfully. No new chapters found. Up to date!",
+      "details": {
+        "newChaptersCount": 0,
+        "newChapterNumbers": [],
+        "totalChapters": 875
+      }
+    },
+    {
+      "id": "5qyq41g",
+      "date": "2026-05-30T15:10:16.579Z",
+      "type": "scrape",
+      "description": "Scraped successfully. No new chapters found. Up to date!",
+      "details": {
+        "newChaptersCount": 0,
+        "newChapterNumbers": [],
+        "totalChapters": 875
+      }
+    },
+    {
+      "id": "cravhdb",
+      "date": "2026-05-30T15:18:15.908Z",
+      "type": "scrape",
+      "description": "Scraped successfully. Found 4 new chapter(s): Ch. 52.5, Ch. 250.5, Ch. 360.5, Ch. 731.5.",
+      "details": {
+        "newChaptersCount": 4,
+        "newChapterNumbers": [
+          52.5,
+          250.5,
+          360.5,
+          731.5
+        ],
+        "totalChapters": 879
+      }
+    }
+  ]
+}
