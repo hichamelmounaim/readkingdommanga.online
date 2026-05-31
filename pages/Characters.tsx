@@ -7,8 +7,23 @@ const Characters: React.FC = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <SEOHead
-        title="Kingdom Manga Characters - Database"
-        description="Detailed profiles of Kingdom Manga characters including Xin (Shin), Ying Zheng (Ei Sei) and more."
+        title="Kingdom Manga Characters Guide - Xin, Ying Zheng, Qiang Lei & More"
+        description="Comprehensive character profiles for Kingdom manga. Learn about Xin (Shin), Ying Zheng (Ei Sei), Qiang Lei (Kyou Kai), and every key character in Yasuhisa Hara's epic historical series."
+        canonicalUrl="https://readkingdommanga.online/characters"
+        schema={{
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          "name": "Kingdom Manga Characters Guide",
+          "description": "Character profiles for all major Kingdom manga characters.",
+          "url": "https://readkingdommanga.online/characters",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://readkingdommanga.online/" },
+              { "@type": "ListItem", "position": 2, "name": "Characters", "item": "https://readkingdommanga.online/characters" }
+            ]
+          }
+        }}
       />
 
       <div className="text-center mb-16">

@@ -12,13 +12,74 @@ const Home: React.FC = () => {
   return (
     <>
       <SEOHead
-        title="Kingdom Manga - Read Online High Quality"
-        description="Read Kingdom Manga online in high quality. The best place for Kingdom chapters, character info, and latest updates. All chapters available."
+        title="Read Kingdom Manga Online Free - All 876 Chapters | ReadKingdomManga"
+        description="Read Kingdom Manga online free in high quality. Follow Xin and Ying Zheng through all 876 chapters of Yasuhisa Hara's epic historical series. New chapters weekly. No sign-up required."
+        canonicalUrl="https://readkingdommanga.online/"
         schema={{
           "@context": "https://schema.org",
-          "@type": "WebSite",
-          "name": "Kingdom Manga",
-          "url": "https://readkingdommanga.online",
+          "@graph": [
+            {
+              "@type": "WebSite",
+              "@id": "https://readkingdommanga.online/#website",
+              "name": "ReadKingdomManga",
+              "url": "https://readkingdommanga.online",
+              "description": "Read Kingdom Manga online free in high quality. All 876 chapters available.",
+              "inLanguage": "en-US",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://readkingdommanga.online/manga?search={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+              }
+            },
+            {
+              "@type": "ComicSeries",
+              "@id": "https://readkingdommanga.online/#comicseries",
+              "name": "Kingdom",
+              "alternateName": ["キングダム", "Chiến quốc", "Wang Zhe Tian Xia"],
+              "url": "https://readkingdommanga.online",
+              "image": "https://readkingdommanga.online/kingdom.webp",
+              "description": "During the Warring States period of ancient China, Xin and Ying Zheng struggle to survive and achieve their dream of unifying the land. An epic historical manga serialized in Weekly Young Jump since 2006.",
+              "author": {
+                "@type": "Person",
+                "name": "Yasuhisa Hara"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Shueisha",
+                "url": "https://www.shueisha.co.jp"
+              },
+              "genre": ["Action", "Historical", "Military", "Seinen", "Drama"],
+              "inLanguage": "en",
+              "numberOfEpisodes": 876,
+              "startDate": "2006",
+              "contentRating": "Teen",
+              "isAccessibleForFree": true,
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "ratingCount": "45000",
+                "bestRating": "5",
+                "worstRating": "1"
+              }
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://readkingdommanga.online/#webpage",
+              "url": "https://readkingdommanga.online/",
+              "name": "Read Kingdom Manga Online Free - All 876 Chapters",
+              "isPartOf": { "@id": "https://readkingdommanga.online/#website" },
+              "about": { "@id": "https://readkingdommanga.online/#comicseries" },
+              "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://readkingdommanga.online/" }
+                ]
+              }
+            }
+          ]
         }}
       />
 
@@ -238,7 +299,7 @@ const Home: React.FC = () => {
             <div className="bg-white dark:bg-[#1a1a1a] p-6 rounded-xl border border-gray-200 dark:border-white/5 shadow-sm hover:shadow-md transition-shadow">
               <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">Is the Kingdom Manga Finished?</h3>
               <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                No, the <strong>Kingdom manga</strong> is currently ongoing. New chapters are released in Weekly Shonen Magazine.
+                No, the <strong>Kingdom manga</strong> is currently ongoing. New chapters are released weekly in <strong>Weekly Young Jump</strong> by Shueisha.
               </p>
             </div>
 

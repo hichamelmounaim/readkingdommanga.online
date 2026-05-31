@@ -2,44 +2,48 @@ const fs = require('fs');
 const path = require('path');
 
 const DOMAIN = 'https://readkingdommanga.online';
+const TODAY = new Date().toISOString().split('T')[0];
 
-// Load actual chapter numbers from the scraped JSON file
 const rawData = fs.readFileSync(path.join(__dirname, '../public/scraped_czvwfo-kingdom.json'), 'utf8');
 const data = JSON.parse(rawData);
+const scrapedDate = data.scraped_at ? data.scraped_at.split('T')[0] : TODAY;
 const chapters = data.chapters.map(c => c.chapter_number).sort((a, b) => a - b);
+const maxChapter = Math.max(...chapters);
 
-
-const pages = [
-  '',
-  '/manga',
-  '/characters',
-  '/privacy',
-  '/dmca',
-  '/disclaimer',
-  '/about',
-  '/terms'
+const staticPages = [
+  { path: '',          changefreq: 'daily',   priority: '1.0', lastmod: scrapedDate },
+  { path: '/manga',    changefreq: 'daily',   priority: '0.9', lastmod: scrapedDate },
+  { path: '/characters', changefreq: 'monthly', priority: '0.7', lastmod: TODAY },
+  { path: '/about',    changefreq: 'monthly', priority: '0.5', lastmod: TODAY },
+  { path: '/privacy',  changefreq: 'yearly',  priority: '0.3', lastmod: TODAY },
+  { path: '/dmca',     changefreq: 'yearly',  priority: '0.3', lastmod: TODAY },
+  { path: '/disclaimer', changefreq: 'yearly', priority: '0.3', lastmod: TODAY },
+  { path: '/terms',    changefreq: 'yearly',  priority: '0.3', lastmod: TODAY },
 ];
 
 let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 `;
 
-// Add static pages
-pages.forEach(page => {
+staticPages.forEach(({ path: pagePath, changefreq, priority, lastmod }) => {
   sitemap += `  <url>
-    <loc>${DOMAIN}${page}</loc>
-    <changefreq>daily</changefreq>
-    <priority>${page === '' ? '1.0' : '0.8'}</priority>
+    <loc>${DOMAIN}${pagePath || '/'}</loc>
+    <lastmod>${lastmod}</lastmod>
+    <changefreq>${changefreq}</changefreq>
+    <priority>${priority}</priority>
   </url>
 `;
 });
 
-// Add chapters
 chapters.forEach(num => {
+  const isRecent = num >= maxChapter - 50;
+  const changefreq = isRecent ? 'weekly' : 'monthly';
+  const priority = isRecent ? '0.8' : '0.6';
   sitemap += `  <url>
     <loc>${DOMAIN}/chapter/${num}</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>${scrapedDate}</lastmod>
+    <changefreq>${changefreq}</changefreq>
+    <priority>${priority}</priority>
   </url>
 `;
 });
@@ -52,4 +56,4 @@ if (!fs.existsSync(publicDir)) {
 }
 
 fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemap);
-console.log(`Sitemap generated at ${path.join(publicDir, 'sitemap.xml')} with ${pages.length + chapters.length} URLs`);
+console.log(`Sitemap generated with ${staticPages.length + chapters.length} URLs (${chapters.length} chapters, latest: ${maxChapter})`);

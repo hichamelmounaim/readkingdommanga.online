@@ -77,23 +77,46 @@ const ChapterReader: React.FC = () => {
   return (
     <div className="bg-gray-100 dark:bg-[#121212] min-h-screen flex flex-col">
       <SEOHead
-        title={`Kingdom Manga Chapter ${chapter.number} - Read Online`}
-        description={`Read Kingdom Manga Chapter ${chapter.number}: ${chapter.title} online in high quality free. Official English scans available.`}
+        title={`Kingdom Chapter ${chapter.number} - Read Free Online | Kingdom Manga`}
+        description={`Read Kingdom Chapter ${chapter.number} online free in high quality. Yasuhisa Hara's epic historical manga. Follow Xin's journey to become the greatest general under the heavens. No sign-up required.`}
+        canonicalUrl={`https://readkingdommanga.online/chapter/${chapter.number}`}
         schema={{
           "@context": "https://schema.org",
-          "@type": "ComicIssue",
-          "headline": `Kingdom Chapter ${chapter.number}: ${chapter.title}`,
-          "image": chapter.pages[0],
-          "datePublished": chapter.releaseDate,
-          "issueNumber": chapter.number,
-          "author": {
-            "@type": "Person",
-            "name": "Yasuhisa Hara"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Kingdom Manga"
-          }
+          "@graph": [
+            {
+              "@type": "ComicIssue",
+              "@id": `https://readkingdommanga.online/chapter/${chapter.number}#comicissue`,
+              "name": `Kingdom Chapter ${chapter.number}`,
+              "headline": `Kingdom Chapter ${chapter.number}`,
+              "url": `https://readkingdommanga.online/chapter/${chapter.number}`,
+              "image": chapter.pages[0] || "https://readkingdommanga.online/kingdom.webp",
+              "datePublished": chapter.releaseDate,
+              "issueNumber": chapter.number,
+              "inLanguage": "en",
+              "isAccessibleForFree": true,
+              "isPartOf": {
+                "@type": "ComicSeries",
+                "name": "Kingdom",
+                "url": "https://readkingdommanga.online"
+              },
+              "author": {
+                "@type": "Person",
+                "name": "Yasuhisa Hara"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Shueisha"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://readkingdommanga.online/" },
+                { "@type": "ListItem", "position": 2, "name": "Kingdom Manga", "item": "https://readkingdommanga.online/manga" },
+                { "@type": "ListItem", "position": 3, "name": `Chapter ${chapter.number}`, "item": `https://readkingdommanga.online/chapter/${chapter.number}` }
+              ]
+            }
+          ]
         }}
       />
 

@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /dist/
 
-Sitemap: https://w1.bluelocken.com/sitemap.xml
+Sitemap: https://readkingdommanga.online/sitemap.xml

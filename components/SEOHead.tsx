@@ -7,19 +7,36 @@ interface SEOHeadProps extends SEOMeta {
 
 const SEOHead: React.FC<SEOHeadProps> = ({ title, description, schema, canonicalUrl }) => {
   useEffect(() => {
-    // Update Title
-    document.title = `${title} | Kingdom Manga`;
+    document.title = title;
 
-    // Update Meta Description
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (!metaDescription) {
-      metaDescription = document.createElement('meta');
-      metaDescription.setAttribute('name', 'description');
-      document.head.appendChild(metaDescription);
+    const setMeta = (selector: string, attr: string, value: string) => {
+      let el = document.querySelector(selector);
+      if (!el) {
+        el = document.createElement('meta');
+        const [attrName, attrValue] = selector.replace('meta[', '').replace(']', '').split('=');
+        el.setAttribute(attrName, attrValue.replace(/"/g, ''));
+        document.head.appendChild(el);
+      }
+      el.setAttribute(attr, value);
+    };
+
+    setMeta('meta[name="description"]', 'content', description);
+
+    // Open Graph
+    setMeta('meta[property="og:title"]', 'content', title);
+    setMeta('meta[property="og:description"]', 'content', description);
+    if (canonicalUrl) {
+      setMeta('meta[property="og:url"]', 'content', canonicalUrl);
     }
-    metaDescription.setAttribute('content', description);
 
-    // Add Canonical Tag
+    // Twitter
+    setMeta('meta[property="twitter:title"]', 'content', title);
+    setMeta('meta[property="twitter:description"]', 'content', description);
+    if (canonicalUrl) {
+      setMeta('meta[property="twitter:url"]', 'content', canonicalUrl);
+    }
+
+    // Canonical
     if (canonicalUrl) {
       let linkCanonical = document.querySelector('link[rel="canonical"]');
       if (!linkCanonical) {
@@ -30,7 +47,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({ title, description, schema, canonical
       linkCanonical.setAttribute('href', canonicalUrl);
     }
 
-    // Add Schema.org JSON-LD
+    // Schema.org JSON-LD
     if (schema) {
       let scriptSchema = document.querySelector('#structured-data');
       if (!scriptSchema) {

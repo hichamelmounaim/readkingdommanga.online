@@ -5,8 +5,9 @@ const About: React.FC = () => {
     return (
         <div className="max-w-4xl mx-auto px-4 py-16 min-h-screen">
             <SEOHead
-                title="About Us - Kingdom Manga"
-                description="Learn more about Kingdom Manga, our mission, and why we are the best place to read Kingdom online."
+                title="About ReadKingdomManga - The Best Place to Read Kingdom Online"
+                description="Learn about ReadKingdomManga.online — our mission to provide free, high-quality Kingdom manga chapters. Read Yasuhisa Hara's acclaimed series with fast loading, no sign-up required."
+                canonicalUrl="https://readkingdommanga.online/about"
             />
 
             <h1 className="text-3xl md:text-4xl font-bold mb-8 dark:text-white border-b border-gray-200 dark:border-gray-800 pb-4">
