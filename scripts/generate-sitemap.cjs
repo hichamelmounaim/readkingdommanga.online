@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://readkingdommanga.online';
+const DOMAIN = 'https://www.readkingdommanga.online';
 const TODAY = new Date().toISOString().split('T')[0];
 
 const rawData = fs.readFileSync(path.join(__dirname, '../public/scraped_czvwfo-kingdom.json'), 'utf8');
