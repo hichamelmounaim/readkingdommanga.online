@@ -1,17 +1,19 @@
 import { Arc, Chapter, Character, Comment } from "./types";
+import mangaData from "./scraped_czvwfo-kingdom.json";
 
-export const MOCK_CHAPTERS: Chapter[] = Array.from({ length: 800 }, (_, i) => {
-  const number = i + 1;
-  return {
-    id: String(number),
-    number: number,
-    title: `Kingdom Chapter ${number}`,
-    releaseDate: new Date().toISOString(),
-    pages: number === 800 ? [] : Array.from({ length: 80 }, (_, p) =>
-      `https://images.mangafreak.me/mangas/kingdom/kingdom_${number}/kingdom_${number}_${p + 1}.jpg`
-    )
-  };
-}).reverse();
+// Kingdom began serialization in Weekly Young Jump on January 26, 2006
+const SERIES_START = new Date("2006-01-26T00:00:00Z").getTime();
+const MS_PER_WEEK = 7 * 24 * 60 * 60 * 1000;
+
+export const MOCK_CHAPTERS: Chapter[] = [...mangaData.chapters]
+  .sort((a, b) => b.chapter_number - a.chapter_number)
+  .map(ch => ({
+    id: String(ch.chapter_number),
+    number: ch.chapter_number,
+    title: ch.chapter_title,
+    releaseDate: new Date(SERIES_START + (ch.chapter_number - 1) * MS_PER_WEEK).toISOString(),
+    pages: ch.image_urls,
+  }));
 
 export const CHARACTERS: Character[] = [
   {

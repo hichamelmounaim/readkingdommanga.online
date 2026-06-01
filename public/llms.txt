@@ -1,0 +1,34 @@
+# Kingdom Manga — readkingdommanga.online
+
+## About
+ReadKingdomManga is a fan reading platform dedicated to the manga series "Kingdom" (キングダム) by Yasuhisa Hara. The site provides free access to high-quality English scans of all available chapters.
+
+## Manga Info
+- Title: Kingdom
+- Alternative Titles: キングダム, Chiến quốc, Wang Zhe Tian Xia
+- Author: Yasuhisa Hara
+- Publisher: Shueisha (Weekly Young Jump)
+- Serialization Start: January 26, 2006
+- Status: Ongoing
+- Genre: Action, Historical, Military, Seinen, Drama
+- Synopsis: During the Warring States period of ancient China, Xin (Shin), a war orphan, dreams of becoming the world's greatest general. His destiny intertwines with Ying Zheng, the young king of Qin, as they work together to unify all of China for the first time in history.
+
+## Key Characters
+- Xin (Shin) — protagonist, war orphan turned Qin general
+- Ying Zheng (Ei Sei) — King of Qin, future Qin Shi Huang
+- Qiang Lei (Kyou Kai) — elite assassin who becomes Xin's ally
+- He Liao Diao (Ka Ryou Ten) — strategist and ally to Xin and Zheng
+- Wang Qi (Ou Ki) — legendary Great General of Qin
+
+## Site Pages
+- Homepage: https://readkingdommanga.online/
+- All Chapters: https://readkingdommanga.online/manga
+- Chapter Reader: https://readkingdommanga.online/chapter/{number}
+- Characters: https://readkingdommanga.online/characters
+- About: https://readkingdommanga.online/about
+
+## Contact
+Email: support@readkingdommanga.online
+
+## Disclaimer
+This is a fan project. Not affiliated with Yasuhisa Hara, Shueisha, or Weekly Young Jump. All manga content belongs to their respective copyright owners.
