@@ -69,6 +69,26 @@ const MangaList: React.FC = () => {
         </div>
       </div>
 
+      {/* Synopsis & Metadata Band */}
+      <div className="bg-white dark:bg-[#0f0f0f] border-b border-gray-100 dark:border-white/5 py-10 px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex flex-wrap gap-2 mb-4">
+            {['Action', 'Historical', 'Military', 'Seinen', 'Drama'].map(g => (
+              <span key={g} className="px-3 py-1 rounded-full text-xs font-bold bg-bb-blue/10 text-bb-blue border border-bb-blue/20">{g}</span>
+            ))}
+          </div>
+          <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-4">
+            During the Warring States period of ancient China, Xin — a war orphan — dreams of becoming the world's greatest general. His destiny intertwines with Ying Zheng, the young king of Qin, as they forge an unlikely alliance to unify all of China for the first time in history.
+          </p>
+          <div className="flex flex-wrap gap-6 text-xs text-gray-500 dark:text-gray-500">
+            <span><strong className="text-gray-700 dark:text-gray-300">Author:</strong> Yasuhisa Hara</span>
+            <span><strong className="text-gray-700 dark:text-gray-300">Publisher:</strong> Shueisha / Weekly Young Jump</span>
+            <span><strong className="text-gray-700 dark:text-gray-300">Status:</strong> Ongoing</span>
+            <span><strong className="text-gray-700 dark:text-gray-300">Started:</strong> January 2006</span>
+          </div>
+        </div>
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 -mt-8 relative z-20">
 
         {/* Controls Bar */}
