@@ -50,6 +50,18 @@
         "totalChapters": 879,
         "bulkSync": true
       }
+    },
+    {
+      "id": "axn7m4t",
+      "date": "2026-06-02T09:00:39.380Z",
+      "type": "scrape",
+      "description": "Scraped successfully during bulk sync. No new chapters found. Up to date!",
+      "details": {
+        "newChaptersCount": 0,
+        "newChapterNumbers": [],
+        "totalChapters": 879,
+        "bulkSync": true
+      }
     }
   ]
 }
