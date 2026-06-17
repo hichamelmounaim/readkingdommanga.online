@@ -21,11 +21,11 @@ ReadKingdomManga is a fan reading platform dedicated to the manga series "Kingdo
 - Wang Qi (Ou Ki) — legendary Great General of Qin
 
 ## Site Pages
-- Homepage: https://readkingdommanga.online/
-- All Chapters: https://readkingdommanga.online/manga
-- Chapter Reader: https://readkingdommanga.online/chapter/{number}
-- Characters: https://readkingdommanga.online/characters
-- About: https://readkingdommanga.online/about
+- Homepage: https://www.readkingdommanga.online/
+- All Chapters: https://www.readkingdommanga.online/manga
+- Chapter Reader: https://www.readkingdommanga.online/chapter/{number}
+- Characters: https://www.readkingdommanga.online/characters
+- About: https://www.readkingdommanga.online/about
 
 ## Contact
 Email: support@readkingdommanga.online

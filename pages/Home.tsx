@@ -20,33 +20,33 @@ const Home: React.FC = () => {
       <SEOHead
         title="Read Kingdom Manga Online Free - All 876 Chapters | ReadKingdomManga"
         description="Read Kingdom Manga online free in high quality. Follow Xin and Ying Zheng through all 876 chapters of Yasuhisa Hara's epic historical series. New chapters weekly. No sign-up required."
-        canonicalUrl="https://readkingdommanga.online/"
+        canonicalUrl="https://www.readkingdommanga.online/"
         schema={{
           "@context": "https://schema.org",
           "@graph": [
             {
               "@type": "WebSite",
-              "@id": "https://readkingdommanga.online/#website",
+              "@id": "https://www.readkingdommanga.online/#website",
               "name": "ReadKingdomManga",
-              "url": "https://readkingdommanga.online",
+              "url": "https://www.readkingdommanga.online",
               "description": "Read Kingdom Manga online free in high quality. All 876 chapters available.",
               "inLanguage": "en-US",
               "potentialAction": {
                 "@type": "SearchAction",
                 "target": {
                   "@type": "EntryPoint",
-                  "urlTemplate": "https://readkingdommanga.online/manga?search={search_term_string}"
+                  "urlTemplate": "https://www.readkingdommanga.online/manga?search={search_term_string}"
                 },
                 "query-input": "required name=search_term_string"
               }
             },
             {
               "@type": "ComicSeries",
-              "@id": "https://readkingdommanga.online/#comicseries",
+              "@id": "https://www.readkingdommanga.online/#comicseries",
               "name": "Kingdom",
               "alternateName": ["キングダム", "Chiến quốc", "Wang Zhe Tian Xia"],
-              "url": "https://readkingdommanga.online",
-              "image": "https://readkingdommanga.online/kingdom.webp",
+              "url": "https://www.readkingdommanga.online",
+              "image": "https://www.readkingdommanga.online/kingdom.webp",
               "description": "During the Warring States period of ancient China, Xin and Ying Zheng struggle to survive and achieve their dream of unifying the land. An epic historical manga serialized in Weekly Young Jump since 2006.",
               "author": {
                 "@type": "Person",
@@ -73,15 +73,15 @@ const Home: React.FC = () => {
             },
             {
               "@type": "WebPage",
-              "@id": "https://readkingdommanga.online/#webpage",
-              "url": "https://readkingdommanga.online/",
+              "@id": "https://www.readkingdommanga.online/#webpage",
+              "url": "https://www.readkingdommanga.online/",
               "name": "Read Kingdom Manga Online Free - All 876 Chapters",
-              "isPartOf": { "@id": "https://readkingdommanga.online/#website" },
-              "about": { "@id": "https://readkingdommanga.online/#comicseries" },
+              "isPartOf": { "@id": "https://www.readkingdommanga.online/#website" },
+              "about": { "@id": "https://www.readkingdommanga.online/#comicseries" },
               "breadcrumb": {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://readkingdommanga.online/" }
+                  { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.readkingdommanga.online/" }
                 ]
               }
             }
@@ -358,11 +358,11 @@ const Home: React.FC = () => {
         </div>
         <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
           {[
-            { name: 'Nano Machine', url: 'https://nanomachinemanga.online/', desc: 'Futuristic murim rise', emoji: '⚙️' },
-            { name: 'Kagurabachi', url: 'https://kagurabachimanga.online/', desc: 'Enchanted blade revenge', emoji: '⚔️' },
-            { name: 'Blue Lock', url: 'https://readbluelockmanga.online/', desc: 'Soccer & ego battle', emoji: '⚽' },
-            { name: 'Dandadan', url: 'https://readdandadanmanga.online/', desc: 'Aliens & ghosts chaos', emoji: '👾' },
-            { name: 'Gachiakuta', url: 'https://readgachiakutamanga.online/', desc: 'Trash-powered warrior', emoji: '🗑️' },
+            { name: 'Nano Machine', url: 'https://www.nanomachinemanga.online/', desc: 'Futuristic murim rise', emoji: '⚙️' },
+            { name: 'Kagurabachi', url: 'https://www.kagurabachimanga.online/', desc: 'Enchanted blade revenge', emoji: '⚔️' },
+            { name: 'Blue Lock', url: 'https://www.readbluelockmanga.online/', desc: 'Soccer & ego battle', emoji: '⚽' },
+            { name: 'Dandadan', url: 'https://www.readdandadanmanga.online/', desc: 'Aliens & ghosts chaos', emoji: '👾' },
+            { name: 'Gachiakuta', url: 'https://www.readgachiakutamanga.online/', desc: 'Trash-powered warrior', emoji: '🗑️' },
           ].map(site => (
             <a key={site.url} href={site.url} target="_blank" rel="noopener noreferrer" className="group flex flex-col items-center gap-2 p-5 bg-white/3 border border-white/5 rounded-xl hover:border-bb-blue/30 hover:bg-bb-blue/5 transition-all text-center">
               <span className="text-3xl">{site.emoji}</span>

@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
     { name: 'Home', path: '/' },
     { name: 'All Chapters', path: '/manga' },
     { name: 'Characters', path: '/characters' },
-    { name: 'Read Gachiakuta Manga', path: 'https://readgachiakutamanga.online/', isExternal: true },
+    { name: 'Read Gachiakuta Manga', path: 'https://www.readgachiakutamanga.online/', isExternal: true },
   ];
 
   const isActive = (path: string) => location.pathname === path;

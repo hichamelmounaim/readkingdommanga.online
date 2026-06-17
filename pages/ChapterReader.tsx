@@ -7,11 +7,11 @@ import { useManga } from '../context/MangaContext';
 import { Chapter } from '../types';
 
 const SISTER_SITES = [
-  { name: 'Nano Machine Manga', url: 'https://nanomachinemanga.online/', desc: 'Cheon Yeo-Woon rises through the Demonic Cult with a nano machine.' },
-  { name: 'Kagurabachi Manga', url: 'https://kagurabachimanga.online/', desc: 'Chihiro hunts sorcerers with enchanted blades in this Shonen Jump hit.' },
-  { name: 'Blue Lock Manga', url: 'https://readbluelockmanga.online/', desc: 'Isagi and 300 strikers battle for Japan\'s top striker spot.' },
-  { name: 'Dandadan Manga', url: 'https://readdandadanmanga.online/', desc: 'Aliens, ghosts, and supernatural chaos by Tatsu Yukinobu.' },
-  { name: 'Gachiakuta Manga', url: 'https://readgachiakutamanga.online/', desc: 'Rudo fights to survive in the Pit with trash-powered abilities.' },
+  { name: 'Nano Machine Manga', url: 'https://www.nanomachinemanga.online/', desc: 'Cheon Yeo-Woon rises through the Demonic Cult with a nano machine.' },
+  { name: 'Kagurabachi Manga', url: 'https://www.kagurabachimanga.online/', desc: 'Chihiro hunts sorcerers with enchanted blades in this Shonen Jump hit.' },
+  { name: 'Blue Lock Manga', url: 'https://www.readbluelockmanga.online/', desc: 'Isagi and 300 strikers battle for Japan\'s top striker spot.' },
+  { name: 'Dandadan Manga', url: 'https://www.readdandadanmanga.online/', desc: 'Aliens, ghosts, and supernatural chaos by Tatsu Yukinobu.' },
+  { name: 'Gachiakuta Manga', url: 'https://www.readgachiakutamanga.online/', desc: 'Rudo fights to survive in the Pit with trash-powered abilities.' },
 ];
 
 const ChapterReader: React.FC = () => {
@@ -108,17 +108,17 @@ const ChapterReader: React.FC = () => {
       <SEOHead
         title={`Kingdom Chapter ${chapter.number} - Read Free Online | Kingdom Manga`}
         description={`Read Kingdom Chapter ${chapter.number} online free in high quality. Yasuhisa Hara's epic historical manga. Follow Xin's journey to become the greatest general under the heavens. No sign-up required.`}
-        canonicalUrl={`https://readkingdommanga.online/chapter/${chapter.number}`}
+        canonicalUrl={`https://www.readkingdommanga.online/chapter/${chapter.number}`}
         schema={{
           "@context": "https://schema.org",
           "@graph": [
             {
               "@type": "ComicIssue",
-              "@id": `https://readkingdommanga.online/chapter/${chapter.number}#comicissue`,
+              "@id": `https://www.readkingdommanga.online/chapter/${chapter.number}#comicissue`,
               "name": `Kingdom Chapter ${chapter.number}`,
               "headline": `Kingdom Chapter ${chapter.number}`,
-              "url": `https://readkingdommanga.online/chapter/${chapter.number}`,
-              "image": chapter.pages[0] || "https://readkingdommanga.online/kingdom.webp",
+              "url": `https://www.readkingdommanga.online/chapter/${chapter.number}`,
+              "image": chapter.pages[0] || "https://www.readkingdommanga.online/kingdom.webp",
               "datePublished": chapter.releaseDate,
               "issueNumber": chapter.number,
               "inLanguage": "en",
@@ -126,7 +126,7 @@ const ChapterReader: React.FC = () => {
               "isPartOf": {
                 "@type": "ComicSeries",
                 "name": "Kingdom",
-                "url": "https://readkingdommanga.online"
+                "url": "https://www.readkingdommanga.online"
               },
               "author": {
                 "@type": "Person",
@@ -140,9 +140,9 @@ const ChapterReader: React.FC = () => {
             {
               "@type": "BreadcrumbList",
               "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://readkingdommanga.online/" },
-                { "@type": "ListItem", "position": 2, "name": "Kingdom Manga", "item": "https://readkingdommanga.online/manga" },
-                { "@type": "ListItem", "position": 3, "name": `Chapter ${chapter.number}`, "item": `https://readkingdommanga.online/chapter/${chapter.number}` }
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.readkingdommanga.online/" },
+                { "@type": "ListItem", "position": 2, "name": "Kingdom Manga", "item": "https://www.readkingdommanga.online/manga" },
+                { "@type": "ListItem", "position": 3, "name": `Chapter ${chapter.number}`, "item": `https://www.readkingdommanga.online/chapter/${chapter.number}` }
               ]
             }
           ]

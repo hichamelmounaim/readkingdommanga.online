@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /dist/
 
-Sitemap: https://readkingdommanga.online/sitemap.xml
+Sitemap: https://www.readkingdommanga.online/sitemap.xml

@@ -39,17 +39,17 @@ const MangaList: React.FC = () => {
       <SEOHead
         title="Kingdom Manga - All 876 Chapters List | ReadKingdomManga"
         description="Browse the complete Kingdom manga chapter list. Read all 876 chapters of Yasuhisa Hara's acclaimed historical series online in high quality. From Chapter 1 to the latest release, free with no sign-up."
-        canonicalUrl="https://readkingdommanga.online/manga"
+        canonicalUrl="https://www.readkingdommanga.online/manga"
         schema={{
           "@context": "https://schema.org",
           "@type": "CollectionPage",
           "name": "Kingdom Manga - All Chapters",
           "description": "Browse all 876 chapters of Kingdom manga online in high quality.",
-          "url": "https://readkingdommanga.online/manga",
+          "url": "https://www.readkingdommanga.online/manga",
           "isPartOf": {
             "@type": "WebSite",
             "name": "ReadKingdomManga",
-            "url": "https://readkingdommanga.online"
+            "url": "https://www.readkingdommanga.online"
           },
           "about": {
             "@type": "ComicSeries",
@@ -59,8 +59,8 @@ const MangaList: React.FC = () => {
           "breadcrumb": {
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://readkingdommanga.online/" },
-              { "@type": "ListItem", "position": 2, "name": "Kingdom Manga Chapters", "item": "https://readkingdommanga.online/manga" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.readkingdommanga.online/" },
+              { "@type": "ListItem", "position": 2, "name": "Kingdom Manga Chapters", "item": "https://www.readkingdommanga.online/manga" }
             ]
           }
         }}

@@ -8,18 +8,18 @@ const Characters: React.FC = () => {
       <SEOHead
         title="Kingdom Manga Characters Guide - Xin, Ying Zheng, Qiang Lei & More"
         description="Comprehensive character profiles for Kingdom manga. Learn about Xin (Shin), Ying Zheng (Ei Sei), Qiang Lei (Kyou Kai), and every key character in Yasuhisa Hara's epic historical series."
-        canonicalUrl="https://readkingdommanga.online/characters"
+        canonicalUrl="https://www.readkingdommanga.online/characters"
         schema={{
           "@context": "https://schema.org",
           "@type": "CollectionPage",
           "name": "Kingdom Manga Characters Guide",
           "description": "Character profiles for all major Kingdom manga characters.",
-          "url": "https://readkingdommanga.online/characters",
+          "url": "https://www.readkingdommanga.online/characters",
           "breadcrumb": {
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://readkingdommanga.online/" },
-              { "@type": "ListItem", "position": 2, "name": "Characters", "item": "https://readkingdommanga.online/characters" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.readkingdommanga.online/" },
+              { "@type": "ListItem", "position": 2, "name": "Characters", "item": "https://www.readkingdommanga.online/characters" }
             ]
           }
         }}
