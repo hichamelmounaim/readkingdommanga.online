@@ -2,8 +2,8 @@
   "manga_title": "Kingdom",
   "manga_slug": "czvwfo-kingdom",
   "manga_url": "https://www.mangaedge.com/manga/czvwfo-kingdom/",
-  "cover_url": "/covers/fc/65f3a8ebf877606fb6b72ed76a9da7.jpg?v1779965678576",
-  "alternative_titles": "مملكة, キングダム, Chiến quốc, Kaharian, Кралство, Царство, امپراطوری, 王者天下, Karalystė, Krallık, Kerajaan, Królestwo, Kongerige, Koninkrijk, ממלכה, Il Regno, El Reino, Reino, Королівство, Патшалық, Königreich",
+  "cover_url": "/covers/fc/65f3a8ebf877606fb6b72ed76a9da7.jpg?v1780798642740",
+  "alternative_titles": "キングダム, Reino, مملكة, Chiến quốc, Kaharian, Кралство, Царство, امپراطوری, 王者天下, Karalystė, Krallık, Kerajaan, Królestwo, Kongerige, Koninkrijk, ממלכה, Il Regno, El Reino, Королівство, Патшалық, Königreich",
   "type": "Manga",
   "status": "Ongoing",
   "authors": [
@@ -15,8 +15,58 @@
     "Historical"
   ],
   "synopsis": "Xin’s quest begins when his friend Piao, another war orphan who shares his dream of becoming a great general, is taken away by a mysterious minister to the capital, and Xin is left to work and train on his own.\nBut one fateful night, Piao returns bloodied and on the brink of death, with his dying words being for Xin to carry on their dreams and meet a certain person in a nearby village.\nXin rushes to fulfill Piao’s final request, only to meet a boy who looks exactly like Piao.\nBut this is no ordinary boy.\nIt’s the king of Qin, Ying Zheng! And assassins are hot on his tail!",
-  "scraped_at": "2026-06-02T09:00:39.366Z",
+  "scraped_at": "2026-06-17T10:46:00.710Z",
   "chapters": [
+    {
+      "chapter_number": 878,
+      "chapter_title": "Ch. 878",
+      "chapter_url": "https://www.mangaedge.com/manga/czvwfo-kingdom/878/",
+      "image_urls": [
+        "https://s11-95168.t34798ndc.com/s5bChkEum0X/Cp92C/R1/00/jX/hH/hR/00/15/Fm/Eh/OV/XX/0j/hE/jb/FH/Vb/Sj-jXVjjXXEEFRhR.BJbQ.jpeg",
+        "https://s11-95168.t34798ndc.com/BCbaS9NljZEkRIy1/sVTps/SU/zz/FW/Bh/BS/zz/UY/Jv/RB/KD/WW/zF/BR/FX/Jh/DX/NB-FWDFFWWRRJSBS.k9XQ.jpeg",
+        "https://s11-95168.t34798ndc.com/jRODJHGeiNPQMvKls5X/nWScn/Rk/JJ/j0/VH/VR/JJ/kq/Ql/KV/Et/00/Jj/VK/jb/QH/tb/UN-j0tjj00KKQRVR.3Tbd.jpeg",
+        "https://s11-95168.t34798ndc.com/Y5XeAoiIRkmr/OlzdO/ZW/HH/Vk/px/pZ/HH/Wr/Q3/Sp/J5/kk/HV/pS/Vj/Qx/5j/RZ-Vk5VVkkSSQZpZ.eyjX.jpeg",
+        "https://s11-95168.t34798ndc.com/G96fasH4Bhor2lwj/nk30n/Nl/zz/UW/5t/5N/zz/lo/Gy/M5/pV/WW/zU/5M/Uj/Gt/Vj/Ql-UWVUUWWMMGN5N.T9jh.jpeg",
+        "https://s11-95168.t34798ndc.com/ixrteh7/oZv2o/Ql/55/VG/Bw/BQ/55/lM/pX/TB/bU/GG/5V/BT/Vx/pw/Ux/Op-VGUVVGGTTpQBQ.1sxe.jpeg",
+        "https://s11-95168.t34798ndc.com/nN8pcDHS5ORqa3kYfGMe/L0Z1L/QV/oo/kG/hs/hQ/oo/V2/RN/lh/TM/GG/ok/hl/kS/Rs/MS/WG-kGMkkGGllRQhQ.YXS6.jpeg",
+        "https://s11-95168.t34798ndc.com/aYefdMLl/8mdQ8/9O/bb/WE/Ta/T9/bb/Oc/S1/0T/Hp/EE/bW/T0/Wx/Sa/px/Vp-WEpWWEE00S9T9.y5xN.jpeg",
+        "https://s11-95168.t34798ndc.com/svmrfaYN9t/brGFb/Sk/ll/TQ/h3/hS/ll/kO/xc/Hh/51/QQ/lT/hH/TN/x3/1N/RH-TQ1TTQQHHxShS.a6NB.jpeg",
+        "https://s11-95168.t34798ndc.com/5ZhzJ68a/4ypb4/U0/hh/jR/kB/kU/hh/0O/la/Zk/MT/RR/hj/kZ/jN/lB/TN/jS-jRTjjRRZZlUkU.WxNJ.jpeg",
+        "https://s11-95168.t34798ndc.com/egE3C5zGFoxsSU078v/tYVxt/MU/ll/zF/kj/kM/ll/Ur/50/Wk/pI/FF/lz/kW/zm/5j/Im/zz-zFIzzFFWW5MkM.dQm3.jpeg",
+        "https://s11-95168.t34798ndc.com/3KDQXq5IFo/IzM5I/NE/cc/lQ/Fa/FN/cc/ET/JV/9F/nk/QQ/cl/F9/lu/Ja/ku/lF-lQkllQQ99JNFN.04u1.jpeg",
+        "https://s11-95168.t34798ndc.com/tkeyGT10u7jrv/IzTwI/M0/dd/kN/Zn/ZM/dd/0J/2R/VZ/Gh/NN/dk/ZV/ky/2n/hy/kY-kNhkkNNVV2MZM.WiyD.jpeg",
+        "https://s11-95168.t34798ndc.com/60Idq3xZ578n4RHXhT/dXNSd/Qs/pp/Uz/Fb/FQ/pp/sm/1j/4F/lk/zz/pU/F4/Uw/1b/kw/UQ-UzkUUzz441QFQ.YGw2.jpeg",
+        "https://s11-95168.t34798ndc.com/H7ADgV/6F1H6/SD/zz/0P/5K/5S/zz/Dx/Bu/m5/qY/PP/z0/5m/0O/BK/YO/0D-0PY00PPmmBS5S.odOj.jpeg",
+        "https://s11-95168.t34798ndc.com/0wMCgVyWN6Oeb/uYVOu/Mk/yy/FL/Na/NM/yy/kB/Jj/pN/mT/LL/yF/Np/Fd/Ja/Td/FJ-FLTFFLLppJMNM.WZdP.jpeg",
+        "https://s11-95168.t34798ndc.com/Fsf5j/ASazA/Wx/ww/DG/lL/lW/ww/xq/v1/4l/0t/GG/wD/l4/Dj/vL/tj/DG-DGtDDGG44vWlW.Z3j2.jpeg",
+        "https://s11-95168.t34798ndc.com/rG96zNOq4/7kXz7/Wo/dd/EO/FH/FW/dd/o0/23/CF/pV/OO/dE/FC/Eh/2H/Vh/EV-EOVEEOOCC2WFW.aRhl.jpeg"
+      ]
+    },
+    {
+      "chapter_number": 877,
+      "chapter_title": "Ch. 877",
+      "chapter_url": "https://www.mangaedge.com/manga/czvwfo-kingdom/877/",
+      "image_urls": [
+        "https://s11-95168.t34798ndc.com/liGXzqrVpgMCPK/r5GXr/Vm/kW/lk/mE/Hb/dF/lR/mZ/Ed/km/kl/Wm/HR/VW/0T/Td/Wk-kF0WFlZFSWdlV.wcme.jpeg",
+        "https://s11-95168.t34798ndc.com/zMZvArG9Xw5TgQHRKIs/mRVem/Nt/UT/JU/tx/Ha/1Q/Ji/tL/x1/Ut/UJ/Tt/Hi/NT/4I/I1/TN-UQ4TQJLQFT1JN.zAtp.jpeg",
+        "https://s11-95168.t34798ndc.com/bkyEmfa4iJ8/KdLuK/ZH/lN/kl/H3/XG/FS/kz/H1/3F/lH/lk/NH/Xz/ZN/W0/0F/NV-lSWNSk1SVNFkZ.RIH2.jpeg",
+        "https://s11-95168.t34798ndc.com/CUyvT/MI69M/JN/kW/Uk/Np/e3/R5/Uj/Nl/pR/kN/kU/WN/ej/JW/Ya/aR/WQ-k5YW5Ul5FWRUJ.2fNh.jpeg",
+        "https://s11-95168.t34798ndc.com/9tDLKuwaxglzoWyZ2/kEUOk/Ju/FN/0F/uD/1n/QS/0X/ud/DQ/Fu/F0/Nu/1X/JN/l9/9Q/N0-FSlNS0dSRNQ0J.i2ue.jpeg",
+        "https://s11-95168.t34798ndc.com/0a9dzZSIE54GNM/zDPez/NX/kQ/Tk/X0/VZ/hU/Tn/XB/0h/kX/kT/QX/Vn/NQ/E1/1h/QB-kUEQUTBUWQhTN.CbX5.jpeg",
+        "https://s11-95168.t34798ndc.com/7IBnauM3Tr4gtC0siQ/CHTcC/JF/kS/Zk/Fl/Un/LW/Z4/FN/lL/kF/kZ/SF/U4/JS/jR/RL/SW-kWjSWZNWMSLZJ.dxFe.jpeg",
+        "https://s11-95168.t34798ndc.com/ftUMvemlx4yXQ5/IxSaI/ZY/EM/jE/YV/Wq/JQ/jG/Yl/VJ/EY/Ej/MY/WG/ZM/U0/0J/MU-EQUMQjlQNMJjZ.hsYd.jpeg",
+        "https://s11-95168.t34798ndc.com/UpRHwn5Xf6dlxa/AbHhA/1W/EU/FE/Wv/yr/dT/Fn/WV/vd/EW/EF/UW/yn/1U/DR/Rd/Ud-ETDUTFVTBUdF1.wLWZ.jpeg",
+        "https://s11-95168.t34798ndc.com/pOr4DoybH0cifn/OdlCO/Vw/1Q/j1/wi/xW/z5/jn/wX/iz/1w/1j/Qw/xn/VQ/EH/Hz/1Q-15EQ5jX5YQzjV.krwM.jpeg",
+        "https://s11-95168.t34798ndc.com/zpGfB/fT15f/xG/ES/kE/GL/Ft/2n/kp/GZ/L2/EG/Ek/SG/Fp/xS/aU/U2/EE-EnaSnkZnNS2kx.JAGl.jpeg",
+        "https://s11-95168.t34798ndc.com/ZpcXK/IF1EI/JP/RU/ZR/PS/b5/hY/Zd/Pw/Sh/RP/RZ/UP/bd/JU/2B/Bh/RJ-RY2UYZwYVUhZJ.y8Pj.jpeg",
+        "https://s11-95168.t34798ndc.com/QktIbzifGC/4HmO4/JF/lT/El/Fc/qB/QN/Ek/Ft/cQ/lF/lE/TF/qk/JT/W1/1Q/lR-lNWTNEtNRTQEJ.2sFv.jpeg",
+        "https://s11-95168.t34798ndc.com/z6cwNXEdYk7DIqZ5V/69V36/de/jT/Fj/ek/Jw/RO/FH/eW/kR/je/jF/Te/JH/dT/Nl/lR/jU-jONTOFWOSTRFd.0zeB.jpeg",
+        "https://s11-95168.t34798ndc.com/NSaGO5wo/ph3Mp/YU/EW/BE/Ub/N4/dQ/BP/UK/bd/EU/EB/WU/NP/YW/lZ/Zd/EB-EQlWQBKQ2WdBY.kxUo.jpeg",
+        "https://s11-95168.t34798ndc.com/1BIX9TA/qahHq/Ik/US/lU/kw/TZ/2K/lJ/kF/w2/Uk/Ul/Sk/TJ/IS/Mm/m2/UF-UKMSKlFKxS2lI.PYko.jpeg",
+        "https://s11-95168.t34798ndc.com/dinkytLJKXc7VpbmWfDO/bRW8b/BJ/lS/hl/JG/de/21/hV/JX/G2/lJ/lh/SJ/dV/BS/EF/F2/l1-l1ES1hX1US2hB.5CJx.jpeg",
+        "https://s11-95168.t34798ndc.com/VdAjvwf8Sb6HRa/3vlN3/dc/EU/VE/ct/Zq/SI/VY/cF/tS/Ec/EV/Uc/ZY/dU/1Q/QS/E1-EI1UIVFIXUSVd.zDc9.jpeg"
+      ]
+    },
     {
       "chapter_number": 876,
       "chapter_title": "Ch. 876",
