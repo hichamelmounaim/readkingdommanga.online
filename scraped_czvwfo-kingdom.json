@@ -2,7 +2,7 @@
   "manga_title": "Kingdom",
   "manga_slug": "czvwfo-kingdom",
   "manga_url": "https://www.mangaedge.com/manga/czvwfo-kingdom/",
-  "cover_url": "/covers/fc/65f3a8ebf877606fb6b72ed76a9da7.jpg?v1780798642740",
+  "cover_url": "/covers/fc/65f3a8ebf877606fb6b72ed76a9da7.jpg?v1782570762394",
   "alternative_titles": "キングダム, Reino, مملكة, Chiến quốc, Kaharian, Кралство, Царство, امپراطوری, 王者天下, Karalystė, Krallık, Kerajaan, Królestwo, Kongerige, Koninkrijk, ממלכה, Il Regno, El Reino, Королівство, Патшалық, Königreich",
   "type": "Manga",
   "status": "Ongoing",
@@ -15,8 +15,34 @@
     "Historical"
   ],
   "synopsis": "Xin’s quest begins when his friend Piao, another war orphan who shares his dream of becoming a great general, is taken away by a mysterious minister to the capital, and Xin is left to work and train on his own.\nBut one fateful night, Piao returns bloodied and on the brink of death, with his dying words being for Xin to carry on their dreams and meet a certain person in a nearby village.\nXin rushes to fulfill Piao’s final request, only to meet a boy who looks exactly like Piao.\nBut this is no ordinary boy.\nIt’s the king of Qin, Ying Zheng! And assassins are hot on his tail!",
-  "scraped_at": "2026-06-26T15:37:40.097Z",
+  "scraped_at": "2026-07-07T10:27:58.772Z",
   "chapters": [
+    {
+      "chapter_number": 881,
+      "chapter_title": "Ch. 881",
+      "chapter_url": "https://www.mangaedge.com/manga/czvwfo-kingdom/881/",
+      "image_urls": [
+        "https://s11-95168.t34798ndc.com/ifaUw/CJZdC/iQ/Hi/E0/TE/mE/Hl/Ea/mi/el/r0/ll/lm/Qa/QE/EF/FQ/Q0-0ieHQF0TeH9HF.43YB.jpeg",
+        "https://s11-95168.t34798ndc.com/Y5t6CEfjlzVPRMZIW/xVEYx/IT/SI/U0/RU/JU/Sk/UM/JI/lk/Q0/kk/kJ/TM/TU/UF/FT/TF-0IlSTF0RlSpSF.OieW.jpeg",
+        "https://s11-95168.t34798ndc.com/7W3ubRLygr1x2cV/AxS4A/0T/20/VF/jV/CV/2m/Va/C0/9m/JF/mm/mC/Ta/TV/VM/MT/T2-F092TMFj92I2M.1snh.jpeg",
+        "https://s11-95168.t34798ndc.com/OU7Z4/flJnf/5O/x5/VE/QV/TV/xX/VF/T5/ZX/6E/XX/XT/OF/OV/VY/YO/OQ-E5ZxOYEQZxUxY.08zR.jpeg",
+        "https://s11-95168.t34798ndc.com/VEPqCka/sUnEs/GS/LG/hV/Wh/ah/LZ/hk/aG/yZ/3V/ZZ/Za/Sk/Sh/hN/NS/Sh-VGyLSNVWyLRLN.lOxd.jpeg",
+        "https://s11-95168.t34798ndc.com/CG5zDTQUkK/qFT9q/SV/GS/kl/Qk/Rk/GE/kb/RS/zE/nl/EE/ER/Vb/Vk/kZ/ZV/VP-lSzGVZlQzGPGZ.ayUK.jpeg",
+        "https://s11-95168.t34798ndc.com/64KSi9uwh/SM2aS/DU/FD/Vk/OV/QV/FG/VH/QD/TG/ck/GG/GQ/UH/UV/Vd/dU/UD-kDTFUdkOTFNFd.bxEX.jpeg",
+        "https://s11-95168.t34798ndc.com/niYShUAetmD/xZvTx/EU/GE/HF/1H/pH/GM/Hz/pE/LM/eF/MM/Mp/Uz/UH/Hl/lU/UL-FELGUlF1LGVGl.caRS.jpeg",
+        "https://s11-95168.t34798ndc.com/UYNIfr/APvrA/eW/Qe/ZU/VZ/xZ/Q6/ZB/xe/G6/dU/66/6x/WB/WZ/Z1/1W/Wx-UeGQW1UVGQCQ1.kqcO.jpeg",
+        "https://s11-95168.t34798ndc.com/myQ2GhTNDS5WAwLU/oQFmo/ST/OS/kE/Uk/Vk/OW/kR/VS/lW/1E/WW/WV/TR/Tk/kN/NT/ET-ESlOTNEUlO4ON.LubZ.jpeg",
+        "https://s11-95168.t34798ndc.com/MAab5iUBxo2/wlNhw/VM/KV/kE/Tk/5k/Ks/kt/5V/0s/xE/ss/s5/Mt/Mk/kF/FM/EE-EV0KMFET0KdKF.Ypba.jpeg",
+        "https://s11-95168.t34798ndc.com/BDKYIgjRdovTtZ7zyVxA/kWZEk/9V/R9/Ul/FU/pU/RD/Ud/p9/PD/Tl/DD/Dp/Vd/VU/UN/NV/lN-l9PRVNlFPR2RN.hMBb.jpeg",
+        "https://s11-95168.t34798ndc.com/gpHx61bNhjS0Gn8CzwR/P2RMP/QT/VQ/hF/zh/Nh/V3/hk/NQ/B3/EF/33/3N/Tk/Th/hU/UT/FV-FQBVTUFzBVIVU.yew5.jpeg",
+        "https://s11-95168.t34798ndc.com/bIxvlezGu96W7hZsjp/1VTZ1/DS/MD/EU/0E/wE/Mo/EP/wD/co/lU/oo/ow/SP/SE/EN/NS/U0-UDcMSNU0cM4MN.dhrb.jpeg",
+        "https://s11-95168.t34798ndc.com/JH62zEsGw/XBJYX/yR/Dy/01/T0/l0/DC/0i/ly/NC/U1/CC/Cl/Ri/R0/0F/FR/10-1yNDRF1TNDoDF.G4z9.jpeg",
+        "https://s11-95168.t34798ndc.com/m3Zf8bxO2/pzXsp/SM/TS/hl/Dh/Nh/TW/hv/NS/jW/3l/WW/WN/Mv/Mh/hI/IM/lQ-lSjTMIlDjTQTI.OiHm.jpeg",
+        "https://s11-95168.t34798ndc.com/5r3q7blRev0CWK1/onHWo/hN/zh/MU/RM/jM/zT/Mp/jh/CT/0U/TT/Tj/Np/NM/MF/FN/Uh-UhCzNFURCzVzF.Badm.jpeg",
+        "https://s11-95168.t34798ndc.com/QjnxR3si9k2uUtTCq/yksFy/xS/Tx/1V/E1/U1/TY/1o/Ux/QY/lV/YY/YU/So/S1/1M/MS/VQ-VxQTSMVEQTNTM.hzbJ.jpeg",
+        "https://s11-95168.t34798ndc.com/E16xkuC2DL8PiYfJFZ/yRFGy/CU/DC/V1/WV/TV/DH/VY/TC/SH/z1/HH/HT/UY/UV/Vl/lU/1T-1CSDUl1WSDJDl.39iB.jpeg"
+      ]
+    },
     {
       "chapter_number": 880,
       "chapter_title": "Ch. 880",
